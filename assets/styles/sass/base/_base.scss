@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // outline: 2px solid red;
+  }
+  button,
+  input {
+    border: none;
+    background: none;
+    outline: none;
+    button,
+    input:focus {
+      outline: none;
+    }
+  }
+  .container {
+    max-width: 1273px;
+    margin: 0 auto;
+  }
+  a {
+    text-decoration: none;
+  }
+  ul,
+  li {
+    list-style-type: none;
+  }
+  

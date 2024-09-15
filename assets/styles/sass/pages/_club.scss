@@ -1,0 +1,125 @@
+.club-section {
+    background-color: #f9f9f9;
+    .container {
+      .club-content {
+        // display: flex;
+        // gap: 72px;
+        padding-top: 52px;
+        padding-bottom: 52px;
+        .join {
+          // width: 1273px;
+          height: 364px;
+          background: #ffffff;
+          // border: 1px solid black;
+          padding-top: 68px;
+          .club-title {
+            //styleName: Headings / H1;
+            font-family: "Clash" Display;
+            font-size: 36px;
+            font-weight: 400;
+            line-height: 50.4px;
+            text-align: center;
+            color: #2a254b;
+          }
+          .club-text {
+            //styleName: Body/Medium;
+            font-family: "Satoshi", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: #2a254b;
+          }
+  
+          .foooter__form {
+            display: flex;
+            // justify-content: space-between;
+            justify-content: center;
+            margin-bottom: 16px;
+            border: 2px solid var(--pink-dark);
+            border-radius: 7px;
+            margin-top: 72px;
+          }
+          .footer__form--input {
+            width: 40%;
+            // padding-left: 32px;
+            color: white;
+            border: none;
+            background: #f9f9f9;
+          }
+          .footer__form--btn {
+            padding: 16px 18px;
+            border: none;
+            background: #2a254b;
+            //styleName: Body/Medium;
+            font-family: "Satoshi", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 1280px) {
+    .club-section {
+      .container {
+        padding-left: 20px;
+        .join {
+          width: 100%;
+          .club-title {
+            // display: inline-block;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1270px) {
+    .club-section {
+      .club-content {
+        flex-wrap: wrap;
+        .club-img img {
+          width: 100%;
+        }
+        .join {
+          flex-wrap: wrap;
+          flex-direction: row;
+          .club-title {
+            font-size: 20px;
+          }
+          .club-text {
+            font-size: 14px;
+          }
+          .foooter__form {
+            width: 100%;
+  
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .club-section {
+      .club-content {
+        flex-wrap: wrap;
+        .join {
+          flex-wrap: wrap;
+          flex-direction: row;
+          .club-title {
+            font-size: 20px;
+          }
+          .club-text {
+            font-size: 14px;
+          }
+          .foooter__form {
+            width: 60%;
+          }
+        }
+      }
+    }
+  }
+  

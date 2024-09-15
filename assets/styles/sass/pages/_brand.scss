@@ -1,0 +1,70 @@
+.brand {
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  
+  .brand-makes {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: center;
+    padding-bottom: 51px;
+    color: #444061;
+  }
+  
+  .brand-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .brand-card {
+    max-width: 270px;
+  }
+  
+  .brand-card-icon {
+    cursor: pointer;
+  }
+  
+  .brand-card-title {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 8px;
+    padding-top: 16px;
+    color: #444061;
+  }
+  
+  .brand-card-text {
+    max-width: 270px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #444061;
+  }
+  
+  @media screen and (max-width: 1290px) {
+    .container {
+      padding: 0 24px;
+    }
+  
+    .brand-card {
+      padding-bottom: 36px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .brand {
+      padding-top: 48px;
+      padding-bottom: 48px;
+    }
+  
+    .brand-makes {
+      text-align: left;
+    }
+  
+    .brand-card {
+      max-width: 100%;
+    }
+  }
+  

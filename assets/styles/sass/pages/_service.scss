@@ -1,0 +1,75 @@
+.service-section {
+  .service-content {
+    display: flex;
+    gap: 84px;
+    .service-right {
+      .service-title {
+        margin-top: 72px;
+        font-family: "Clash Display", sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.6px;
+        color: #2a254b;
+      }
+      .service-text {
+        font-family: "Satoshi", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        color: #505977;
+        margin-top: 25px;
+      }
+      .service-btn {
+        padding: 16px 32px;
+        background: #f9f9f9;
+        //styleName: Body/Medium;
+        font-family: "Satoshi", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: #2a254b;
+        margin-top: 215px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1290px) {
+  .service-section {
+    margin-top: -52px;
+    .container {
+      padding: 24px;
+      .service-content {
+        gap: 10px;
+        .service-left img {
+          width: 100%;
+        }
+        .service-right {
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1067px) {
+  .service-section {
+    .container {
+      .service-content {
+        flex-direction: column;
+        .service-left img {
+          width: 100%;
+        }
+        .service-right {
+          .service-text {
+            padding-bottom: 30px;
+          }
+          .service-btn {
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
