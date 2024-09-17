@@ -29,7 +29,11 @@ header {
     .container {
       padding: 24px;
       .header-content {
+        .header-view{
+           margin-left: -250px; 
+        }
         .header-left {
+      
         }
       }
     }
@@ -48,6 +52,7 @@ header {
         }
         .header-view {
           width: 100%;
+          margin: 0;
         }
       }
     }

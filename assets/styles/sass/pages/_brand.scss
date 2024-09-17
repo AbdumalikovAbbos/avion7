@@ -20,6 +20,8 @@
   
   .brand-card {
     max-width: 270px;
+    background: #F9F9F9;
+    padding: 30px;
   }
   
   .brand-card-icon {
@@ -50,7 +52,9 @@
   
     .brand-card {
       padding-bottom: 36px;
+      margin-top: 26px;
     }
+
   }
   
   @media screen and (max-width: 600px) {
@@ -58,13 +62,13 @@
       padding-top: 48px;
       padding-bottom: 48px;
     }
-  
     .brand-makes {
       text-align: left;
     }
   
     .brand-card {
       max-width: 100%;
+      margin-top: 26px;
     }
   }
   

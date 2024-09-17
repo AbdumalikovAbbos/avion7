@@ -1,71 +1,329 @@
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: white;
-    // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    // border-bottom: 2px solid #8e44ad;
-  }
-  
-  .logo {
-    //   font-size: 24px;
-    //   font-weight: bold;
-    //   color: #333;
-    font-family: "Clash Display", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 29.52px;
-    color: #22202e;
-  }
-  
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    margin-top: 70px;
-    text-align: center;
-  }
-  .nav-link-item {
-    font-family: "Satoshi", sans-serif;
+// .navbar {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     padding: 10px 20px;
+//     background-color: white;
+//     // box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+//     // border-bottom: 2px solid #8e44ad;
+//   }
+
+//   .logo {
+//     //   font-size: 24px;
+//     //   font-weight: bold;
+//     //   color: #333;
+//     font-family: "Clash Display", sans-serif;
+//     font-size: 24px;
+//     font-weight: 400;
+//     line-height: 29.52px;
+//     color: #22202e;
+//   }
+
+//   .nav-links {
+//     list-style: none;
+//     display: flex;
+//     gap: 20px;
+//     margin-top: 70px;
+//     text-align: center;
+//   }
+//   .nav-link-item {
+//     font-family: "Satoshi", sans-serif;
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: 21.6px;
+//     color: #726e8d;
+//   }
+//   .nav-links li a {
+//     text-decoration: none;
+//     color: #333;
+//     font-size: 16px;
+//   }
+
+//   .icons a {
+//     margin-left: 15px;
+//   }
+
+//   .icons img {
+//     width: 20px;
+//     height: 20px;
+//   }
+
+//   @media screen and (max-width: 768px) {
+//     .nav-links {
+//       display: none;
+//     }
+
+//     .navbar {
+//       justify-content: space-between;
+//     }
+
+//     .icons img {
+//       width: 16px;
+//       height: 16px;
+//     }
+//   }
+
+//   @media screen and (max-width: 500px) {
+//     .logo {
+//       font-size: 18px;
+//     }
+//   }
+
+// jasur
+
+.nav {
+  padding: 20px 0;
+  margin: 0 20px;
+}
+
+.nav-content {
+  width: 100%;
+}
+
+.nav-content__top {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.nav-search {
+  align-content: center;
+}
+
+.nav-logo {
+  // font-family: Clash Display;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  color: var(--dark-blue);
+}
+
+.nav-bascet {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-content__bottom {
+  padding-top: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+
+  .nav-link {
+    // font-family: Satoshi;
     font-size: 16px;
     font-weight: 400;
     line-height: 21.6px;
-    color: #726e8d;
+    cursor: pointer;
+    color: gray;
+    transition: all 0.3s linear;
+    position: relative;
+
   }
-  .nav-links li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 16px;
+}
+
+.menyu {
+  display: none;
+}
+
+.nav-search-m {
+  display: none;
+}
+
+// @media screen and (max-width: 800px) {
+//     // .nav {
+//     //     padding: 20px 24px 20px 24px;
+//     // }
+
+//     .nav-links {
+//         gap: 20px;
+//     }
+// }
+
+@media screen and (max-width: 650px) {
+  .menyu {
+    display: block;
   }
-  
-  .icons a {
-    margin-left: 15px;
+
+  .nav-content__bottom {
+    display: none;
   }
-  
-  .icons img {
-    width: 20px;
-    height: 20px;
+
+  .nav-shop {
+    display: none;
   }
-  
-  @media screen and (max-width: 768px) {
-    .nav-links {
-      display: none;
+
+  .nav-avatar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-search-m {
+    display: block;
+  }
+
+  .nav-search {
+    display: none;
+  }
+
+  .nav-shop {
+    display: none;
+  }
+
+  .nav-avatar {
+    display: none;
+  }
+}
+
+// ==============================
+// ============= ABOUT PAGE 1
+.ab1 {
+  margin: 0 !important;
+}
+
+.nav-about1 {
+}
+
+.nav-ab-content {
+}
+
+.nav-ab-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 21px 51px 19px 21px;
+}
+
+.nav-ab1-avion {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  margin: 0 !important;
+}
+
+.nav-ab1-logo {
+  display: flex;
+  // align-items: center;
+  gap: 47px;
+
+  .nav-ab1-top {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 0 !important;
+  }
+
+  .nav-ab1-logos {
+    gap: 16px;
+
+    .nav-ab1-menyu {
+      padding-left: 13px;
     }
-  
-    .navbar {
-      justify-content: space-between;
-    }
-  
-    .icons img {
-      width: 16px;
-      height: 16px;
+  }
+}
+
+.nav-ab1-tops {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #726e8d;
+  margin-bottom: 0 !important;
+}
+
+.nav-ab-bottom {
+  background-color: #f9f9f9;
+  overflow-y: auto;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  .nav-ab1-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 44px;
+    padding: 22px 0 22px 0;
+
+    .nav-ab1-links {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      color: #726e8d;
     }
   }
-  
-  @media screen and (max-width: 500px) {
-    .logo {
-      font-size: 18px;
-    }
+}
+
+.menyu_nav-logo {
+  display: none;
+}
+
+@media screen and (max-width: 522px) {
+  .nav-ab1-tops {
+    display: none;
   }
-  
+
+  .menyu_nav-logo {
+    display: block;
+  }
+
+  .nav-ab1-menyu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .ress {
+    text-align: -webkit-center;
+  }
+}
+
+// /==========================================
+// ============================= ABOUT PAGE 2
+
+// .header-ab2-content_jasur{
+//   display: flex;
+//   align-items: baseline;
+//   padding: 88px 0 88px 0;
+//   justify-content: space-between;
+// }
+
+// .header1-ab2_jasur {
+//   width: 704px;
+//   font-size: 36px;
+//   font-weight: 400;
+//   line-height: 50.4px;
+// }
+
+// .heder-ab2-btn_jasur {
+//   font-size: 16px;
+//   font-weight: 400;
+//   line-height: 24px;
+//   padding: 16px 32px;
+//   background-color: #F9F9F9;
+//   padding: 16px 32px;
+// }
+
+// // ===
+
+// .ab2-he2{
+//   padding-top: 12px;
+//   margin: 0 !important;
+// }
+
+// .heder-btn-ab2 {
+//   padding: 16px 32px;
+//   background-color: #494565;
+
+// }
+// .header-ab2-btn1{
+//   display: inline-block;
+//   padding-top: 100px;
+
+// }
